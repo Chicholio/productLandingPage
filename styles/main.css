@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    text-align: center;
+    background: url(https://i.pinimg.com/originals/4c/0b/de/4c0bdeb01eda4c0e3b791f4278e2c618.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#header {
+    position: fixed;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    background-color: rgb(255, 255, 255);
+}
+
+#header-img {
+    width: 30%;
+    height: 80px;
+}
+
+#nav-bar {
+    width: 70%;
+    text-align: center;
+    padding: 30px 0 0 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    padding: 0 100px;
+    color: black;
+}
+
+.nav-link:hover {
+    color: rgb(150, 146, 146);
+} 
+
+main {
+    margin: 0px 200px 0px 200px;
+    background-color: rgba(0, 0, 0, 0.81);
+    padding: 140px 80px 30px 80px;
+    
+}
+
+h1 {
+    font-size: 50px;
+}
+
+#form {
+    width: 50px;
+    padding: 10px;
+    color: white;
+    text-align: justify;
+    display: flex;
+    flex-flow: column;
+    padding: 0 0 0 350px;
+    line-height: 2em;
+}
+
+.form div {
+    padding: 0 0 0 60px;
+}
+
+.quienes-somos {
+    padding: 80px 0 0 0;
+    color: rgb(255, 255, 255);
+    line-height: 2.5em;
+}
+
+.quienes-somos hr {
+    border-color: rgb(25, 14, 173);
+}
+
+.quienes-somos p {
+    text-align: justify;
+}
+
+.productos {
+    padding: 80px 0 0 0;
+    color: rgb(255, 255, 255);
+    line-height: 2.5em; 
+}
+
+.productos div {
+    display: flex;
+}
+
+.productos div p {
+    width: 70%;
+    text-align: justify;
+    padding: 0 10px 0 10px;
+}
+
+.productos div .img-xs {
+    width: 30%;
+    height: 200px;
+    padding: 70px 0 0 0;
+}
+.productos div .img-ps5 {
+    width: 200px;
+    height: 300px;
+    margin: 30px 50px 0 50px;
+}
+
+.productos div .img-ns {
+    width: 30%;
+    height: 120px;
+    padding: 80px 0 0 0;
+}
+
+.video {
+    padding: 80px 0 0 0;
+    color: rgb(255, 255, 255);
+    line-height: 2.5em;
+}
+
+.video .aside-video {
+    display: flex;
+}
+
+.video .aside-video div {
+    width: 33.33%;
+}
+
+.video .aside-video div iframe {
+    width: 250px;
+    height: 150;
+}
